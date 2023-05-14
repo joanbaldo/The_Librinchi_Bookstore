@@ -6,6 +6,7 @@ import Products from './components/Products/Products'
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
 import Header from './components/Header/Header'
+import Home from './components/Home/Home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,9 +15,11 @@ function App() {
     <>
       <div>
 <Header />
+<Home />
 <Products />
 <Register />
 <Login />
+
 
 
       </div>
