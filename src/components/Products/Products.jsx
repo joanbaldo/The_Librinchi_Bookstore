@@ -7,7 +7,7 @@ const Products = () => {
   const {getProducts,products} = useContext(ProductContext)
 //Ahora cuando cargue el componente ejecutara getProducts
   useEffect(() => {
-      getProducts();
+      getProducts(); 
   }, []);
 
   //En el return, recorremos el array
