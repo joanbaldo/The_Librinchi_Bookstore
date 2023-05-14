@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Products from './components/Products/Products'
+//Ahora nos importamos el ProductProvider 
+import { ProductProvider } from './context/ProductContext/ProductState'
+
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
 import Header from './components/Header/Header'
@@ -14,11 +15,13 @@ function App() {
   return (
     <>
       <div>
+        <ProductProvider>
 <Header />
 <Home />
 <Products />
 <Register />
 <Login />
+</ProductProvider>
 
 
 
