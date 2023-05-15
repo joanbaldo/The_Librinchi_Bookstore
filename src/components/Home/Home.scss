@@ -1,0 +1,22 @@
+@import "/src/shopcol.scss";
+.dcat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: $aqua ;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    // margin-left: 3 rem;
+    // margin-right: 3 rem;
+    
+
+}
+.dcatlabel{
+    font-size: 2rem;
+}
+.cattit{
+    font-size: 4 rem;
+}
