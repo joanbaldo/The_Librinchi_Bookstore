@@ -14,7 +14,6 @@ const initialState = {
 
 const API_URL = "http://localhost:3000";
 
-
 export const UserContext = createContext(initialState);
 
 export const UserProvider = ({ children }) => {
