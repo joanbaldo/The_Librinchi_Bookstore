@@ -1,0 +1,26 @@
+
+@import "/src/shopcol.scss";
+.regForm{
+
+    display: flex;
+    flex-direction: column;
+  
+    color: $aqua ;
+    font-weight: 400;
+}
+.campos{
+    display: flex;
+    flex-direction: column;
+row-gap: 15px ;
+    align-items: center;
+}
+#but{
+    margin-top: 20px;
+    border-color:$oak ;
+}
+a:hover {
+    color: #b3ff74;
+  }
+  button {
+    background-color: #f9f9f9;
+  }

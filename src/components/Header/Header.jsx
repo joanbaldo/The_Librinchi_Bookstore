@@ -45,10 +45,10 @@ const Header = () => {
         </div>
         ) : (
           <div className="navBar">
-          <Link className="links" to="/">Home |</Link>
-          <Link className="links" to="/products/showProducts"> Products |</Link>
-          <Link className="links" to="/users/createUser"> Sign In |</Link>
-          <Link className="links" to="/login"> Login </Link>
+          <Link id="l1" className="links" to="/">Home |</Link>
+          <Link id="l2" className="links" to="/products/showProducts"> Products |</Link>
+          <Link id="l3" className="links" to="/users/createUser"> Sign In |</Link>
+          <Link id="l4" className="links" to="/login"> Login </Link>
         </div>
       )}
           <div> <hr /> </div>

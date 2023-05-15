@@ -1,5 +1,6 @@
 import React, { useContext, useState } from "react";
 import { UserContext } from "../../context/UserContext/UserState";
+import "./Register.scss";
 
 const Register = () => {
 
@@ -42,31 +43,49 @@ const Register = () => {
   };
 
   return (
-    <div>
+    <div className="regForm">
       <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="name"
-          onChange={handleInputChange}
-          name="name"
-        />
 
-        <input
-          type="email"
-          placeholder="email"
-          onChange={handleInputChange}
-          name="email"
-        />
+        <div className="campos">
 
-<input
-          type="password"
-          placeholder="password"
-          onChange={handleInputChange}
-          name="password"
-        />
-        <button type="submit" disabled={btnDisabled}>
-          Create User
-        </button>
+          <div>
+            <label htmlFor="name">Name: </label>
+            <input
+              id="name"
+              type="text"
+              placeholder="name"
+              onChange={handleInputChange}
+              name="name"
+            />
+          </div>
+          <div>
+
+            <label htmlFor="email">Email: </label>
+            <input
+              id="email"
+              type="email"
+              placeholder="email"
+              onChange={handleInputChange}
+              name="email"
+            />
+          </div>
+          <div>
+
+            <label htmlFor="password">Password: </label>
+            <input
+              id="password"
+              type="password"
+              placeholder="password"
+              onChange={handleInputChange}
+              name="password"
+            />
+          </div>
+        </div>
+        <div id="but">
+          <button type="submit" disabled={btnDisabled}>
+            Sig In
+          </button>
+        </div>
       </form>
       {message}
     </div>

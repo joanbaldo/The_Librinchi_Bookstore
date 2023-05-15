@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.css";
+import "./App.scss";
 import Products from "./components/Products/Products";
 import Register from "./components/Register/Register";
 import { ProductProvider } from "./context/ProductContext/ProductState";
