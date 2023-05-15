@@ -1,10 +1,10 @@
 import React, { useContext, useEffect } from "react";
 import { ProductContext } from "../../context/ProductContext/ProductState";
 import "./Products.css";
-// import { Card } from "antd";
+import { Card } from "antd";
 
 const Products = () => {
-  // const { Meta } = Card;
+  const { Meta } = Card;
   const { getProducts, products, addCart, cart } = useContext(ProductContext);
 
   useEffect(() => {
@@ -17,11 +17,11 @@ const Products = () => {
 
   const product = products.map((product) => {
     return (
-      <div className="pCard">
+      <div className="productsContainer">
         <div className="product">
-          {/* <Card
+          <Card
             hoverable
-            style={{ width: 300 }}
+            style={{ width: 240 }}
             cover={
               <img
                 alt="example"
@@ -32,9 +32,18 @@ const Products = () => {
             <span>{product.name} </span>
             <br></br>
             <span>{product.price.toFixed(2) + " €"}</span>
-          </Card> */}
+          </Card>
           </div>
       </div>
+      // <div className="productsContainer" key={product._id}>
+      //   <div>
+      //     <img className="imgProducts" src="https://img.mrvcdn.com/g/fb/kf/E10891acaa024406ea820d33ad51de80fC.jpg_2200x2200q79.jpg_.webp?icc=1"></img>
+      //     <span>{product.name} </span>
+      //     <span>{product.price.toFixed(2) + ' €'}</span>
+
+      //     <button onClick={() => addCart(product)}>Add Cart</button>
+      //   </div>
+      // </div>
     );
   });
 

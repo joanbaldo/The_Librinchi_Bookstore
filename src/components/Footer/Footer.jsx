@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div class="net">
+    <div className="footerContainer">
+      <div class="socialnetworks">
             <div class="social">
-                <Link to="https://www.linkedin.com/in/joanbaldo/" target="_blank">
-                    <img className="lilogo" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LI Logo"></img>
+                <Link to="https://es-es.facebook.com/" target="_blank">
+                    <img className="logo" src="https://thumbs.dreamstime.com/z/fije-de-vector-social-popular-del-elemento-instagram-facebook-twitter-los-iconos-logotipos-medios-en-el-fondo-blanco-ejemplos-ai-151374830.jpg" alt="Logo Facebook"></img>
                 </Link>
             </div>
-            <span>Made by<strong>The Joan</strong></span>
+            <span class="copyright">@<strong>JoseLlanas</strong></span>
         </div>
     </div>
   )
