@@ -11,7 +11,7 @@ const Footer = () => {
                     <img className="logo" src="https://thumbs.dreamstime.com/z/fije-de-vector-social-popular-del-elemento-instagram-facebook-twitter-los-iconos-logotipos-medios-en-el-fondo-blanco-ejemplos-ai-151374830.jpg" alt="Logo Facebook"></img>
                 </Link>
             </div>
-            <span class="copyright">@<strong>JoseLlanas</strong></span>
+            <span class="copyright">Copyright <strong> The Librinchi Bookstore </strong>   2023</span>
         </div>
     </div>
   )

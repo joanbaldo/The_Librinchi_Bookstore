@@ -4,7 +4,7 @@ import "./Home.scss"
 const Home = () => {
   return (
     <div className='dHome'>
-      <div className='cattit'>BOOK CATEGORIES</div>
+      <div className='catTit'>BOOK CATEGORIES</div>
 
       <div className='dcat'>
       <div className='dcatlabel'>Romantic</div>
