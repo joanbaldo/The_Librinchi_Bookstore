@@ -16,15 +16,12 @@ function App() {
     <>
       <div>
         <ProductProvider>
-<Header />
-<Home />
-<Products />
-<Register />
-<Login />
-</ProductProvider>
-
-
-
+          <Header />
+          <Home />
+          <Products />
+          <Register />
+          <Login />
+        </ProductProvider>
       </div>
 
     </>

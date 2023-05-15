@@ -1,5 +1,3 @@
-export default Register
-
 import React, { useContext, useState } from "react";
 import { UserContext } from "../../context/UserContext/UserState";
 

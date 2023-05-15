@@ -1,28 +1,44 @@
-import React from 'react'
-//Importamos useContext y useEffect
-import React, { useContext, useEffect } from 'react'
+import React, { useContext, useEffect } from "react";
+import { ProductContext } from "../../context/ProductContext/ProductState";
+import "./Products.css";
+// import { Card } from "antd";
 
 const Products = () => {
+  // const { Meta } = Card;
+  const { getProducts, products, addCart, cart } = useContext(ProductContext);
 
-  const {getProducts,products} = useContext(ProductContext)
-//Ahora cuando cargue el componente ejecutara getProducts
   useEffect(() => {
-      getProducts(); 
+    getProducts();
   }, []);
 
-  //En el return, recorremos el array
-  return (
-    <div>
-        {products.map((product) => {
-           //Porque si no le devolvemos (return) nada al .map nos devolverá error :"undefined"
-            return (
-                <div key={product.id}>
-                    <p>{product.name}</p>
-                </div>
-            )
-        })}
-    </div>
-  )
-}
-  {/* <div key={character.id} > Esto nos lo pide React para saber que lo que está iterando es único. */ }
-export default Products
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }, [cart]);
+
+  const product = products.map((product) => {
+    return (
+      <div className="pCard">
+        <div className="product">
+          {/* <Card
+            hoverable
+            style={{ width: 300 }}
+            cover={
+              <img
+                alt="example"
+                src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+              />
+            }
+          >
+            <span>{product.name} </span>
+            <br></br>
+            <span>{product.price.toFixed(2) + " €"}</span>
+          </Card> */}
+          </div>
+      </div>
+    );
+  });
+
+  return <div>{product}</div>;
+};
+
+export default Products;
