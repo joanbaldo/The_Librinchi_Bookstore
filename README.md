@@ -1,4 +1,4 @@
-![](./assets/TSN_Banner.jpg)
+![](./src/assets/The_Librinchi_Bookstore.jpg)
 
 
 # ÍNDICE
