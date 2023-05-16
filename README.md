@@ -1,11 +1,11 @@
 ![](./src/assets/R_Header.jpg)
 
-
+***
 # ÍNDICE
-- [THESOCIALAPI](#thesocialapi-)
-    - [Descripción del proyecto](#descripción-del-proyecto)
+- [THE LIBRINCHIS BOOKSTORE](#thesocialapi-)
+    - [project description](#descripción-del-proyecto)
 
-- [TRELLO](#trello-)
+- [SECTIONS](#trello-)
     - [Enlace al tablero de trabajo ONLINE del proyecto](#enlace-al-tablero-de-trabajo-online-del-proyecto)
     - [Bloques de tareas y código visual](#bloques-de-tareas-y-código-visual)
     - [Vista general de las tareas](#vista-general-de-las-tareas)

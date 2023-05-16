@@ -36,15 +36,25 @@ const Profile = () => {
             <div className='coll'>
 
                 <Collapse defaultActiveKey={['1']} >
-                    <Panel header="Order:1" key="1">
-                        <p>{ }</p>
-                    </Panel>
-                    <Panel header="Order:2" key="2">
-                        <p>{ }</p>
-                    </Panel>
-                    <Panel header="Order:3" key="3">
-                        <p>{ }</p>
-                    </Panel>
+                    {user.Orders.map(order => {
+                        return (
+                            <Panel header={order.id} key={order.id}>
+                                {
+                                    order.Products.length > 0 ?  <p>{order.Products.map(product => {
+                                
+                                        return (
+                                            <div key={product.id}>
+                                                <p>{product.name}</p>
+                                            </div>
+                                        )
+                                    })}</p> : <p>No products...</p>
+                                }
+                               
+                            </Panel>
+                        )
+                    })}
+
+
                 </Collapse>
             </div>
         </div>

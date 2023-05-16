@@ -17,8 +17,7 @@ const Products = () => {
 
   const product = products.map((product) => {
     return (
-      <div className="productsContainer">
-
+   
           <Card
             hoverable
             style={{ width: 150 }}
@@ -32,13 +31,14 @@ const Products = () => {
             <span className="bname">{product.name} </span>
             <br></br>
             <span className="bprice">{product.price.toFixed(2) + " €"}</span>
+          <button onClick={()=> addCart(product)}>Add cart</button>
           </Card>
-        </div>
+        
 
     );
   });
 
-  return <div>{product}</div>;
+  return <div className="productsContainer">{product}</div>;
 };
 
 export default Products;

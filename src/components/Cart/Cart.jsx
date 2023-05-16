@@ -12,7 +12,7 @@ const Cart = () => {
       }, [cart]);
     
 
-    if (!cart) {
+    if (cart.length <= 0) {
         return <Empty description = {
             <span>
               No products
