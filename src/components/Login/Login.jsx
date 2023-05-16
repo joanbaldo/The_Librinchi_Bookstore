@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import { Button, Form, Input, notification } from "antd";
 import { UserContext } from "../../context/UserContext/UserState";
 import { useNavigate } from "react-router";
+import "./Login.scss";
 
 const Login = () => {
   const { login, message, token } = useContext(UserContext);
@@ -29,7 +30,7 @@ const Login = () => {
         console.log("Failed:", errorInfo);
     }
   return (
-    <div>
+    <div className="loginI">
         <Form
         name="basic"
         labelCol={{ span: 8 }}
@@ -59,10 +60,10 @@ const Login = () => {
         <Form.Item
             name="remember"
             valuePropName="checked"
-            wrapperCol={{ offset: 8, span: 16 }}
+            wrapperCol={{ offset: 0, span: 0 }}
             ></Form.Item>
 
-        <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
+        <Form.Item wrapperCol={{ offset: 0, span: 0}}>
             <Button type="primary" htmlType="submit">
             Submit
             </Button>
