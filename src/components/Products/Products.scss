@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.pCard{
+    display: flex;
+}
+
+.imgProducts {
+    width: 20%;
+}
+.bname{
+    color: #888888;
+    font-size: medium;
+    font-weight: 700;
+}
+.bprice{
+    color: #494949;
+    font-size: x-large;
+    font-weight: 400;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

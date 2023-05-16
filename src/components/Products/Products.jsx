@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { ProductContext } from "../../context/ProductContext/ProductState";
-import "./Products.css";
+import "./Products.scss";
 import { Card } from "antd";
 
 const Products = () => {
@@ -17,32 +17,23 @@ const Products = () => {
 
   const product = products.map((product) => {
     return (
-      <div className="productsContainer">
+      // <div className="productsContainer">
         <div className="product">
           <Card
             hoverable
-            style={{ width: 240 }}
+            style={{ width: 150 }}
             cover={
               <img
-                alt="example"
-                src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+                alt="Exiting book"
+                src="../src/assets/TLB_Bookcard.jpg"
               />
             }
           >
-            <span>{product.name} </span>
+            <span className="bname">{product.name} </span>
             <br></br>
-            <span>{product.price.toFixed(2) + " €"}</span>
+            <span className="bprice">{product.price.toFixed(2) + " €"}</span>
           </Card>
-          </div>
-      </div>
-      // <div className="productsContainer" key={product._id}>
-      //   <div>
-      //     <img className="imgProducts" src="https://img.mrvcdn.com/g/fb/kf/E10891acaa024406ea820d33ad51de80fC.jpg_2200x2200q79.jpg_.webp?icc=1"></img>
-      //     <span>{product.name} </span>
-      //     <span>{product.price.toFixed(2) + ' €'}</span>
-
-      //     <button onClick={() => addCart(product)}>Add Cart</button>
-      //   </div>
+        </div>
       // </div>
     );
   });

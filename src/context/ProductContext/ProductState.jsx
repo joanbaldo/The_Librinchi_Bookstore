@@ -17,7 +17,7 @@ export const ProductProvider = ({ children }) => {
   const getProducts = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:3000/products/showProducts"
+        "http://localhost:3000/products/showAllPandC"
       );
       dispatch({
         type: "GET_PRODUCTS",
