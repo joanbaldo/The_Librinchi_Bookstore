@@ -17,8 +17,8 @@ const Products = () => {
 
   const product = products.map((product) => {
     return (
-      // <div className="productsContainer">
-        <div className="product">
+      <div className="productsContainer">
+
           <Card
             hoverable
             style={{ width: 150 }}
@@ -34,7 +34,7 @@ const Products = () => {
             <span className="bprice">{product.price.toFixed(2) + " €"}</span>
           </Card>
         </div>
-      // </div>
+
     );
   });
 
