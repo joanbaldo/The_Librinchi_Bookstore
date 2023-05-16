@@ -1,4 +1,4 @@
-![](./src/assets/The_Librinchi_Bookstore.jpg)
+![](./src/assets/R_Header.jpg)
 
 
 # ÍNDICE
