@@ -78,6 +78,7 @@
 
 > __Note__
 Screenshots only reflect some browsing samples.
+
 > __Warning__
 Keep in mind that to be able to see the PROFILE section, you have to be loged in.
 
