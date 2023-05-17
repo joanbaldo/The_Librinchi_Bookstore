@@ -71,7 +71,7 @@
 
 ***
 
-## Cart with products
+## Cart empty
 [⬆️](#index)
 ![](./src/assets/R_Cart_E.jpg)
 
