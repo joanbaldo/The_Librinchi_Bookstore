@@ -5,7 +5,7 @@
 - [THE LIBRINCHIS BOOKSTORE](#the-librinchis-bookstore)
     - [Project description](#project-description)
 
-- [SITE SECTIONS & VIEWS](#site-sections-&-views)
+- [SITE SECTIONS & VIEWS](#site-sections--views-)
     - [Header](#header)
     - [Footer](#footer)
     - [Home view](#home-view)
@@ -96,7 +96,7 @@ Keep in mind that to be able to see the PROFILE section, you have to be loged in
 
 ***
 # Author ✒️
-[⬆️](#índice)
+[⬆️](#index)
 
 **Joan Baldó** - | *Coding* | - [joanbaldo](https://github.com/joanbaldo)
 
