@@ -20,7 +20,7 @@ const Products = () => {
    
           <Card
             hoverable
-            style={{ width: 150 }}
+            style={{ width: 200 }}
             cover={
               <img
                 alt="Exiting book"
@@ -31,7 +31,7 @@ const Products = () => {
             <span className="bname">{product.name} </span>
             <br></br>
             <span className="bprice">{product.price.toFixed(2) + " €"}</span>
-          <button onClick={()=> addCart(product)}>Add cart</button>
+          <button className="prodbtn"  onClick={()=> addCart(product)}>Add cart</button>
           </Card>
         
 

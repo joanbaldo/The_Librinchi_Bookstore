@@ -1,79 +1,89 @@
+![](./src/assets/R_Banner.jpg)
+
+***
+# INDEX
+- [THE LIBRINCHIS BOOKSTORE](#the-librinchis-bookstore)
+    - [Project description](#project-description)
+
+- [SITE SECTIONS & VIEWS](#site-sections-&-views)
+    - [Header](#header)
+    - [Footer](#footer)
+    - [Home view](#home-view)
+    - [Products view](#products-view)
+    - [Profile view with orders](#profile-view-with-orders)
+    - [Cart with products](#cart-with-products)
+    - [Cart empty](#cart-empty)
+
+- [Software used to develop the project (TOOLSET)](#software-used-to-develop-the-project-toolset-%EF%B8%8F)
+
+- [Author](#author-%EF%B8%8F)
+
+
+
+# THE LIBRINCHIS BOOKSTORE 📅
+## Project description
+[⬆️](#index)
+
+>*THE LIBRINCHIS BOOKSTORE  stands for a new concept of reading through selected titles and authors. We're proud to offer the best stories within our five categories. *
+>Some special features that will be developed on v.II will be:
+
+>- [X] Offers popup
+>- [X] Book preview
+>- [X] Share book feature
+>- [X] print order in pdf
+
+
+***
+# SITE SECTIONS & VIEWS 📅
+## Header
+[⬆️](#index)
 ![](./src/assets/R_Header.jpg)
 
 ***
-# ÍNDICE
-- [THE LIBRINCHIS BOOKSTORE](#thesocialapi-)
-    - [project description](#descripción-del-proyecto)
 
-- [SECTIONS](#trello-)
-    - [Enlace al tablero de trabajo ONLINE del proyecto](#enlace-al-tablero-de-trabajo-online-del-proyecto)
-    - [Bloques de tareas y código visual](#bloques-de-tareas-y-código-visual)
-    - [Vista general de las tareas](#vista-general-de-las-tareas)
-
-- [POSTMAN](#postman)
-    - [Enlace a la documentación y testing de la API online](#enlace-a-la-documentación-y-testing-de-la-api-online)
-    - [Estructura de endpoints creados y testeados](#estructura-de-endpoints-creados-y-testeados)
-
-- [Herramientas empleadas en el proyecto (TOOLSET) ](#herramientas-empleadas-en-el-proyecto-toolset-%EF%B8%8F)
-
-- [Autores](#autores-%EF%B8%8F)
-
-
-
-# THESOCIALAPI 📅
-## Descripción del proyecto
-[⬆️](#índice)
-
->*THESOCIALAPI es una plataforma online de ayuda a la creación y testing de redes sociales  mediante el uso de una base de datos pre-poblada y una API que permite realizar las operaciones standar con Usuarios, Publicaciones, Comentarios y Likes. *
->La plataforma lleva implementada características especiales como:
-
->- [X] Encriptación, validación de contraseñas y middleware de errores
->- [X] Tockens de inicio de sesión para autorizar ciertas operaciones CRUD
->- [X] Comprobación de la autoria de una publicación
->- [X] Comprobación de la autoria de un comentario
->- [X] Comprobación de privilegios como administrador
->- [X] Posibilidad de dar o quitar un LIKE a las publicaciones
->- [X] Posibilidad de paginar los resultados
-
->A nivel de plataformas utilizadas para el completo despliegue de THESOCIALAPI hemos empleado:
-
-| PLATAFORMA    | USO |
-| :-----------:   | :---------- |
-|MongoDB Atlas| Aquí está la base de datos pre-poblada con la que efectuaremos las pruebas de conexión de la API.  |
-|VERCEL          |Plataforma de despligue,donde se ejecuta el servidor que permite entregar información desde y hacia la base de datos. |
+## Footer
+[⬆️](#index)
+![](./src/assets/R_Footer.jpg)
 
 ***
-# TRELLO 📅
-## Enlace al tablero de trabajo ONLINE del proyecto
-[⬆️](#índice)
->[Ir a TRELLO](https://trello.com/b/s3Fk6LeJ)
 
-## Bloques de tareas y código visual
-[⬆️](#índice)
-![](./assets/TSN_Trello_1.jpg)
-
->*Vista general del tablero creado para el proyecto THESOCIALAPI.*
-
-## Vista general de las tareas
-[⬆️](#índice)
-![](./assets/TSN_Trello_2.jpg)
-
->*Vista general del tablero que contiene todas las tarjetas del proyecto THESOCIALAPI.*
+## Home view
+[⬆️](#index)
+![](./src/assets/R_Home.jpg)
 
 ***
-# POSTMAN
-## Enlace a la documentación y testing de la API online
-[⬆️](#índice)
->[Ir a POSTMAN](https://documenter.getpostman.com/view/26580726/2s93eSZvCJ)
+
+## Products view
+[⬆️](#index)
+![](./src/assets/R_Products.jpg)
+
+***
+
+## Profile view with orders
+[⬆️](#index)
+![](./src/assets/R_Profile.jpg)
+
+***
+
+## Cart with products
+[⬆️](#index)
+![](./src/assets/R_Cart.jpg)
+
+***
+
+## Cart with products
+[⬆️](#index)
+![](./src/assets/R_Cart_E.jpg)
+
 
 > __Note__
-No es posible proporcionar ningún vínculo de testing de SWAGGER porque el deployment sobre VERCEL no está terminado.
+Screenshots only reflect some browsing samples.
 > __Warning__
-Se requiere modificar la estructura del index.js (project root) de manera muy específica.
+Keep in mind that to be able to see the PROFILE section, you have to be loged in.
 
 ***
 # Software used to develop the project (TOOLSET) ⚙️
-[⬆️](#índice)
+[⬆️](#index)
 
 
 >* [*VISUAL STUDIO CODE*](https://code.visualstudio.com/) - Editor de código (Version: 1.75.1)

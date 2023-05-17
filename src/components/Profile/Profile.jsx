@@ -45,6 +45,7 @@ const Profile = () => {
                                         return (
                                             <div key={product.id}>
                                                 <p>{product.name}</p>
+                                                <p>{product.price.toFixed(2) + " €"}</p>
                                             </div>
                                         )
                                     })}</p> : <p>No products...</p>

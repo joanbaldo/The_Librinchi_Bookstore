@@ -25,3 +25,10 @@
     flex-wrap: wrap;
     gap:10px ;
 }
+@import "/src/shopcol.scss";
+
+.prodbtn{
+    color: $oak;
+    padding: 5px;
+    margin: 10px;
+}
